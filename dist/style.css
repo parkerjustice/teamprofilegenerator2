@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.card-body {
+    background-color: rgba(238, 130, 238, 0.356);
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+#navbar {
+    background-color:rgba(238, 130, 238, 0.356);
+    color: teal;
+    font-size: 50px;
+}
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+.card-header {
+    background-color: rgba(238, 130, 238, 0.356);
+    color: teal
+}
+
