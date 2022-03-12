@@ -1,0 +1,28 @@
+{
+    "name": "teamprofilegenerator2",
+    "version": "1.0.0",
+    "description": "this app is to create an accureate profile for future teammates",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/parkerjustice/teamprofilegenerator2"
+    },
+    "author": "Nicole Wallace",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/parkerjustice"
+    },
+    "homepage": "https://github.com/parkerjustice/teamprofilegenerator2#readme",
+    "devDependencies": {
+      "jest": "^26.0.1"
+    },
+    "dependencies": {
+      "inquirer": "^7.1.0"
+    }
+  }
