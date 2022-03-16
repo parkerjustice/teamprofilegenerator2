@@ -1,14 +1,10 @@
 const generatesim = require('./src/generateHTML');
-
 const Intern = require('./lib/Intern'); 
-const Manager = require('./lib/Manager');
+const theManager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
-
 const fs = require('fs'); 
 const inquirer = require('inquirer');
-
 const teamArray = []; 
-
 const theManager = () => {
     return inquirer.prompt ([
         {
@@ -65,7 +61,7 @@ const theManager = () => {
         }
     }
 ])
-.then(managerInput => {
+.then (managerInput => {
     const  { name, id, email, officeNumber } = managerInput; 
     const manager = new Manager (name, id, email, officeNumber);
 
