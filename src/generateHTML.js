@@ -89,7 +89,7 @@ genHTML = (data) => {
 
 }
 
-const generatesTeamsPage = function (employesCards) {   
+const genTeamsPage = function (employesCards) {   
   return`
   <!DOCTYPE html>
   <html lang="en">
